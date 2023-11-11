@@ -30,6 +30,9 @@ bootstrap/*.plan.json
 .ghci
 .ghcid
 
+.updo
+updo
+
 # Output of release and bootstrap
 _build
 
