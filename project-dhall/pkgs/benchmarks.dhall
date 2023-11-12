@@ -1,0 +1,3 @@
+[ "cabal-benchmarks"
+, "solver-benchmarks"
+]
