@@ -9,7 +9,9 @@ constraints: these -assoc
 program-options
   ghc-options: -fno-ignore-asserts
 
-import: ./project-stackage/lts-21.19.config
+-- import: https://www.stackage.org/lts-21.19/cabal.config
+-- import: project-stackage/lts-21.19.local.config
+import: project-stackage/lts-21.19.www.config
 
 import: ./project-cabal/pkgs.config
 import: ./project-cabal/ghc-9.4.7/constraints.config
