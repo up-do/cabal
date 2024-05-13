@@ -1,1 +1,1 @@
-[ "benchmarks", "hackage", "tests" ]
+[ "cabal", "install", "buildinfo", "tests", "integration-tests", "benchmarks" ]

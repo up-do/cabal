@@ -1,5 +1,0 @@
-[ "Cabal"
-, "Cabal-syntax"
-, "cabal-install"
-, "cabal-install-solver"
-]

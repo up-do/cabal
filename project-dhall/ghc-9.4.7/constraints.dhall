@@ -11,8 +11,10 @@
 -- The unix-2.8.2.1 is recommended by stack but not by cabal freeze that prefers unix-2.8.3.0.
 [ { dep = "directory", ver = "1.3.8.1" }
 , { dep = "filepath", ver = "1.4.100.4" }
+, { dep = "hackage-security", ver = "0.6.2.6" }
 , { dep = "process", ver = "1.6.17.0" }
 , { dep = "rere", ver = "0.2" }
 , { dep = "semaphore-compat", ver = "1.0.0@rev:1" }
 , { dep = "unix", ver = "2.8.2.1" }
+, { dep = "zinza", ver = "0.2" }
 ]
