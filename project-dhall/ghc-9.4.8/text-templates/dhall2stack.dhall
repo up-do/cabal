@@ -21,9 +21,9 @@ in  \(pkgs-done : List Text) ->
             }
 
       in  ''
-          ${../../../updo/text-templates/dhall2cabal.dhall
+          ${./stack-snippet.dhall (None Text)}
+          ${../../../updo/text-templates/dhall2stack.dhall
               TYPES.Verbosity.Info
-              TYPES.Stackage.StackageLocal
               stackage-resolver
               ( if    null Text pkgs-todo
                 then  TYPES.PkgSet.AllPkgs pkgs-done
@@ -31,5 +31,4 @@ in  \(pkgs-done : List Text) ->
                         { todo = pkgs-todo, done = pkgs-done }
               )
               pkg-config}
-          ${./cabal-snippet.dhall}
           ''

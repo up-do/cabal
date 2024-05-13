@@ -4,11 +4,9 @@ let empty-constraints = ./../../../updo/empty/constraints.dhall
 
 let empty-source-pkgs = ./../../../updo/empty/source-pkgs.dhall
 
-let null = https://prelude.dhall-lang.org/List/null
-
-in  \(pkgs-done : List Text) ->
-    \(stackage-resolver : Text) ->
-      let pkgs-todo = ../../pkgs-upgrade-todo.dhall
+in  \(stackage-resolver : Text) ->
+    \(ghc-version : Text) ->
+      let project-dhall2config = ../../../updo/text-templates/dhall2config.dhall
 
       let pkg-config =
             { constraints = ./../constraints.dhall ? empty-constraints
@@ -21,15 +19,9 @@ in  \(pkgs-done : List Text) ->
             }
 
       in  ''
-          ${../../../updo/text-templates/dhall2cabal.dhall
-              TYPES.Verbosity.Info
+          ${./cabal-snippet.dhall}
+          ${project-dhall2config
               TYPES.Stackage.StackageLocal
               stackage-resolver
-              ( if    null Text pkgs-todo
-                then  TYPES.PkgSet.AllPkgs pkgs-done
-                else  TYPES.PkgSet.PkgUpgrade
-                        { todo = pkgs-todo, done = pkgs-done }
-              )
-              pkg-config}
-          ${./cabal-snippet.dhall}
-          ''
+              ghc-version
+              pkg-config}''
