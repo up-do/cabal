@@ -5,40 +5,33 @@
 
 packages:
 - completed:
-    hackage: directory-1.3.8.1@sha256:bd3b0a0947a365d2da80b9f4a960a864d42ffa7a46577fdc7a0611703486a7f9,3071
+    hackage: directory-1.3.8.4@sha256:ae1730011f547153bb52139f217d1d524202b3da730a369660fc539e5dcfff31,3166
     pantry-tree:
-      sha256: f60c4c14a20e88daae7c6fba4421245ca254a1c048302ba2197e3622a808d343
+      sha256: 50d96f756127905775cdaa1caf1236bc6cd69985500ce7e978c1a9cc84f7493e
       size: 3519
   original:
-    hackage: directory-1.3.8.1
+    hackage: directory-1.3.8.4
 - completed:
-    hackage: filepath-1.4.100.4@sha256:2de84756d3907308230e34fcc7c1917a73f218f6d53838618b7d5b95dd33e2c3,5536
+    hackage: filepath-1.4.300.2@sha256:345cbb1afe414a09e47737e4d14cbd51891a734e67c0ef3d77a1439518bb81e8,5900
     pantry-tree:
-      sha256: 3f8869f574ea76933efe77ed3c6e4e5a646317b38e8962970c8d0d092266f230
-      size: 3346
+      sha256: 2420f7addc917bf41970a8980f52abe431b1a0fb711b00795effbb289c8ea76c
+      size: 3998
   original:
-    hackage: filepath-1.4.100.4
+    hackage: filepath-1.4.300.2
 - completed:
-    hackage: hackage-security-0.6.2.6@sha256:8ff70524314f9ad706f8e5051d7150ee44cb82170147879b245bdab279604b16,9667
+    hackage: process-1.6.2.0@sha256:ec9465589bec7b321cf11c4f104eba2d316c7d926fb69ea1ea05b6b2530795d6,2490
     pantry-tree:
-      sha256: 6bbe72809fb10f0fb96c3ee1673cae3b94598fff4ba3a033b42fdeed833c0aa7
-      size: 3977
+      sha256: f310e1d60d45797e5618819ce1b662db990fb40e95d14f63b0e6fe94a7e3700c
+      size: 1211
   original:
-    hackage: hackage-security-0.6.2.6
-- completed:
-    hackage: process-1.6.17.0@sha256:49d8a7f372d35363011591b253cae4c8db8b9ec594590448e20b7bed7acaee98,2845
-    pantry-tree:
-      sha256: cfcb73c1a6a3f653f02e838e146d36505c1506d8bf57a4bb306d7ca905110a9e
-      size: 1545
-  original:
-    hackage: process-1.6.17.0
+    hackage: process-1.6.2.0
 - completed:
     hackage: rere-0.2@sha256:3bb3421c195b480f58bbfb34e09282503fb2073eb1f04b0df8de8018b508a105,4193
     pantry-tree:
       sha256: 172dff06762c08fcc3e38c5c7c2c8aa028f920dd2841336ca1278ff4ac192521
       size: 1293
   original:
-    hackage: rere-0.2
+    hackage: rere-0.2@rev:3
 - completed:
     hackage: semaphore-compat-1.0.0@sha256:8ed6242cab5b0e1a8c654424275ac178035d108dfe4d651053947790fcf83017,1181
     pantry-tree:
@@ -47,12 +40,12 @@ packages:
   original:
     hackage: semaphore-compat-1.0.0@rev:1
 - completed:
-    hackage: unix-2.8.2.1@sha256:433396e6087bbe6433ea4a743600bddd29d0e6cd701ea688d6d637ebae7b7bac,9318
+    hackage: unix-2.8.5.1@sha256:3f702a252a313a7bcb56e3908a14e7f9f1b40e41b7bdc8ae8a9605a1a8686f06,9808
     pantry-tree:
-      sha256: 1be1c56da093b0db76374ed0692109a8ebb7a0e5a44b660d186ac759e2b5bd94
-      size: 5752
+      sha256: b961320db69795a16c4ef4eebb0a3e7ddbbbe506fa1e22dde95ee8d8501bfbe5
+      size: 5821
   original:
-    hackage: unix-2.8.2.1
+    hackage: unix-2.8.5.1
 - completed:
     hackage: zinza-0.2@sha256:9adc736bd9b2b0998bb8ee1b71ca5fdf3338267392f1ef2af5aa07c889474da4,2251
     pantry-tree:
