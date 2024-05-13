@@ -32,6 +32,7 @@ bootstrap/*.plan.json
 
 .updo
 updo
+project-nix
 
 # Output of release and bootstrap
 _build
